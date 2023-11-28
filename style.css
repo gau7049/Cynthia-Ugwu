@@ -165,7 +165,6 @@ a{
     width: 100%;
     position: relative;
     padding: 2vw 0vw 2vw 3vw;
-    border-top: 1px solid #888;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -176,15 +175,20 @@ a{
     font-size: 6.2vw;
 }
 
+.elemfirst{
+    border-top: 1px solid #888;
+    border-bottom: 1px solid #888;
+}
+
 .elemLast{
     border-bottom: 1px solid #888;
 }
 
 .elem img {
     opacity: 0;
-    pointer-events: none;
+    pointer-events: none; 
     height: 150%;
-    z-index: 999;
+    z-index: 99;
     position: absolute;
     transform: translate(-50%, -50%);
 }
