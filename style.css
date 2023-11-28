@@ -304,9 +304,7 @@ footer #right-footer{
     #icon-set{
         display: none;
     }
-    #hero-footer{
-        bottom: 20px;
-    }
+    
     #hero-footer a{
         font-size: 1.3vh;
         width: 33%;
